@@ -1,0 +1,30 @@
+# Usa imagem oficial do Python
+FROM python:3.10-slim AS build
+
+# Evita perguntas interativas durante instalação de pacotes
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Atualiza o sistema e instala dependências necessárias para pandas
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends \
+        gcc \
+        libpq-dev \
+        build-essential \
+        python3-dev \
+        libatlas-base-dev \
+        libffi-dev \
+        libssl-dev \
+        curl \
+        && rm -rf /var/lib/apt/lists/*
+
+# Define o diretório de trabalho dentro do container
+WORKDIR /app
+
+# Copia os arquivos do projeto para dentro do container
+COPY . .
+
+# Instala bibliotecas necessárias
+RUN pip install --no-cache-dir pandas
+
+# Comando padrão ao iniciar o container
+CMD ["python", "main.py"]

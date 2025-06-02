@@ -1,0 +1,27 @@
+id_funcionario,data_admissao,data_desligamento,estado,id_cargo,nome_cargo,id_estrutura,nome_estrutura
+3,2024-07-05,2024-12-31,São Paulo,1,Analista de Banco de Dados,3,GER TECNOLOGIA DA INFORMAÇÃO
+4,2024-12-01,2024-12-31,São Paulo,1,Analista de Banco de Dados,8,GER VENDAS
+5,2024-12-13,2025-01-31,Paraná,2,Analista de Suporte,5,GER FINANCEIRO
+6,2024-10-22,2025-02-28,Santa Catarina,3,Analista de Segurança da Informação SR,7,GER OPERAÇÕES
+13,2024-10-12,2025-05-31,São Paulo,6,Engenheiro de Software,10,GER DESENVOLVIMENTO DE NEGÓCIOS
+14,2024-05-15,2025-01-31,São Paulo,2,Analista de Suporte,6,GER MARKETING
+21,2025-01-24,2025-08-31,São Paulo,9,Gerente de TI,10,GER DESENVOLVIMENTO DE NEGÓCIOS
+27,2024-11-07,2024-12-31,Paraná,1,Analista de Banco de Dados,2,GER INTELIGENCIA COMERCIAL B2B
+32,2025-01-04,2025-01-31,Rio de Janeiro,2,Analista de Suporte,7,GER OPERAÇÕES
+37,2024-12-19,2024-12-31,São Paulo,1,Analista de Banco de Dados,8,GER VENDAS
+44,2024-08-31,2025-03-31,São Paulo,4,Desenvolvedor de Software,6,GER MARKETING
+47,2024-06-29,2024-12-31,São Paulo,1,Analista de Banco de Dados,4,GER RECURSOS HUMANOS
+52,2025-04-28,2025-06-30,Rio de Janeiro,7,Administrador de Sistemas,8,GER VENDAS
+53,2024-09-13,2024-12-31,Paraná,1,Analista de Banco de Dados,10,GER DESENVOLVIMENTO DE NEGÓCIOS
+68,2024-08-04,2025-02-28,Santa Catarina,3,Analista de Segurança da Informação SR,9,GER SUPORTE AO CLIENTE
+69,2025-05-21,2025-08-31,São Paulo,9,Gerente de TI,9,GER SUPORTE AO CLIENTE
+76,2024-06-12,2025-03-31,São Paulo,4,Desenvolvedor de Software,6,GER MARKETING
+78,2025-02-04,2025-04-30,São Paulo,5,Gerente de Projetos,7,GER OPERAÇÕES
+79,2024-03-05,2024-12-31,São Paulo,1,Analista de Banco de Dados,4,GER RECURSOS HUMANOS
+80,2025-05-27,2025-07-31,Rio de Janeiro,8,Especialista em Redes,10,GER DESENVOLVIMENTO DE NEGÓCIOS
+84,2024-12-25,2025-01-31,São Paulo,2,Analista de Suporte,5,GER FINANCEIRO
+86,2024-07-13,2025-03-31,São Paulo,4,Desenvolvedor de Software,4,GER RECURSOS HUMANOS
+89,2025-01-24,2025-03-31,São Paulo,4,Desenvolvedor de Software,5,GER FINANCEIRO
+91,2024-07-09,2025-01-31,Paraná,2,Analista de Suporte,7,GER OPERAÇÕES
+93,2024-09-14,2025-03-31,São Paulo,4,Desenvolvedor de Software,6,GER MARKETING
+98,2024-09-28,2025-06-30,São Paulo,7,Administrador de Sistemas,9,GER SUPORTE AO CLIENTE
