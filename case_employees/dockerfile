@@ -1,3 +1,7 @@
+
+# NOME DA IMAGEM ONLINE: alefand/case_employees_python:v1.0-amd
+#-----------------------------------------------------------------------#
+
 # Usa imagem oficial do Python
 FROM python:3.10-slim AS build
 
@@ -24,7 +28,9 @@ WORKDIR /app
 COPY . .
 
 # Instala bibliotecas necessárias
-RUN pip install --no-cache-dir pandas
+RUN pip install --no-cache-dir notebook jupyter nbconvert pandas==2.2.3
 
 # Comando padrão ao iniciar o container
-CMD ["python", "main.py"]
+CMD ["jupyter", "nbconvert", "--to", "notebook", "--execute", "--inplace", "exploring.ipynb"]
+
+#-----------------------------------------------------------------------#
